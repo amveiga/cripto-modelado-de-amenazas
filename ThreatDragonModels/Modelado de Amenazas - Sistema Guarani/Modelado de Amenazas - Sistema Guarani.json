@@ -16,7 +16,246 @@
         "placeholder": "New STRIDE diagram description",
         "thumbnail": "./public/content/images/thumbnail.stride.jpg",
         "version": "2.0.6",
-        "cells": []
+        "cells": [
+          {
+            "position": {
+              "x": 109.99999999999989,
+              "y": 350
+            },
+            "size": {
+              "width": 310,
+              "height": 220
+            },
+            "shape": "trust-boundary-box",
+            "id": "092aba9d-eea8-453a-8d2b-2f950b46db50",
+            "zIndex": -1,
+            "data": {
+              "type": "tm.BoundaryBox",
+              "name": "Trust Boundary",
+              "description": "",
+              "isTrustBoundary": true,
+              "hasOpenThreats": false
+            }
+          },
+          {
+            "position": {
+              "x": 610,
+              "y": -39.999999999999176
+            },
+            "size": {
+              "width": 280,
+              "height": 230
+            },
+            "shape": "trust-boundary-box",
+            "id": "6bba999c-4230-4319-8ee2-2ca7e227cb9f",
+            "zIndex": -1,
+            "data": {
+              "type": "tm.BoundaryBox",
+              "name": "Trust Boundary",
+              "description": "",
+              "isTrustBoundary": true,
+              "hasOpenThreats": false
+            }
+          },
+          {
+            "position": {
+              "x": 120,
+              "y": 385
+            },
+            "size": {
+              "width": 200,
+              "height": 150
+            },
+            "attrs": {
+              "text": {
+                "text": "Campus web server"
+              },
+              "body": {
+                "stroke": "#333333",
+                "strokeWidth": 1.5,
+                "strokeDasharray": null
+              }
+            },
+            "visible": true,
+            "shape": "process",
+            "id": "1ffaee82-1279-4c86-9910-0f7e82db7a10",
+            "zIndex": 1,
+            "data": {
+              "type": "tm.Process",
+              "name": "Campus web server",
+              "description": "",
+              "outOfScope": false,
+              "reasonOutOfScope": "",
+              "privilegeLevel": "",
+              "hasOpenThreats": false,
+              "threats": []
+            }
+          },
+          {
+            "shape": "flow",
+            "attrs": {
+              "line": {
+                "stroke": "#333333",
+                "targetMarker": {
+                  "name": "block"
+                },
+                "sourceMarker": {
+                  "name": ""
+                },
+                "strokeDasharray": null
+              }
+            },
+            "width": 200,
+            "height": 100,
+            "zIndex": 10,
+            "connector": "smooth",
+            "data": {
+              "type": "tm.Flow",
+              "name": "Data Flow",
+              "description": "",
+              "outOfScope": false,
+              "isBidirectional": false,
+              "reasonOutOfScope": "",
+              "protocol": "",
+              "isEncrypted": false,
+              "isPublicNetwork": false,
+              "hasOpenThreats": false,
+              "threats": []
+            },
+            "id": "05c2bb15-1901-426e-84fb-aa05fb78af9e",
+            "source": {
+              "cell": "1ffaee82-1279-4c86-9910-0f7e82db7a10"
+            },
+            "target": {
+              "x": 339.9999999999998,
+              "y": 384.9999999999996
+            },
+            "labels": [
+              "Data Flow"
+            ]
+          },
+          {
+            "shape": "flow",
+            "attrs": {
+              "line": {
+                "stroke": "#333333",
+                "targetMarker": {
+                  "name": "block"
+                },
+                "sourceMarker": {
+                  "name": ""
+                },
+                "strokeDasharray": null
+              }
+            },
+            "width": 200,
+            "height": 100,
+            "zIndex": 10,
+            "connector": "smooth",
+            "data": {
+              "type": "tm.Flow",
+              "name": "Data Flow",
+              "description": "",
+              "outOfScope": false,
+              "isBidirectional": false,
+              "reasonOutOfScope": "",
+              "protocol": "",
+              "isEncrypted": false,
+              "isPublicNetwork": false,
+              "hasOpenThreats": false,
+              "threats": []
+            },
+            "id": "c7ed40f9-a717-4c0b-a3f3-3fd36c10c6ea",
+            "source": {
+              "cell": "1ffaee82-1279-4c86-9910-0f7e82db7a10"
+            },
+            "target": {
+              "x": 339.9999999999998,
+              "y": 384.9999999999996
+            },
+            "labels": [
+              "Data Flow"
+            ]
+          },
+          {
+            "shape": "flow",
+            "attrs": {
+              "line": {
+                "stroke": "#333333",
+                "targetMarker": {
+                  "name": "block"
+                },
+                "sourceMarker": {
+                  "name": ""
+                },
+                "strokeDasharray": null
+              }
+            },
+            "width": 200,
+            "height": 100,
+            "zIndex": 10,
+            "connector": "smooth",
+            "data": {
+              "type": "tm.Flow",
+              "name": "Data Flow",
+              "description": "",
+              "outOfScope": false,
+              "isBidirectional": false,
+              "reasonOutOfScope": "",
+              "protocol": "",
+              "isEncrypted": false,
+              "isPublicNetwork": false,
+              "hasOpenThreats": false,
+              "threats": []
+            },
+            "id": "e53b9576-f13e-4ad4-86b8-03ecd739aa2b",
+            "source": {
+              "cell": "1ffaee82-1279-4c86-9910-0f7e82db7a10"
+            },
+            "target": {
+              "x": 339.9999999999998,
+              "y": 384.9999999999996
+            },
+            "labels": [
+              "Data Flow"
+            ]
+          },
+          {
+            "position": {
+              "x": 610,
+              "y": -10
+            },
+            "size": {
+              "width": 290,
+              "height": 180
+            },
+            "attrs": {
+              "text": {
+                "text": "Servicio de autenticación \nFIUBA"
+              },
+              "body": {
+                "stroke": "#333333",
+                "strokeWidth": 1.5,
+                "strokeDasharray": null
+              }
+            },
+            "visible": true,
+            "shape": "process",
+            "id": "8e163767-8e6c-46c9-8b5a-98b77a1967f9",
+            "zIndex": 11,
+            "data": {
+              "type": "tm.Process",
+              "name": "Servicio de autenticación \nFIUBA",
+              "description": "",
+              "outOfScope": false,
+              "reasonOutOfScope": "",
+              "privilegeLevel": "",
+              "hasOpenThreats": false,
+              "threats": [],
+              "isBidirectional": null
+            }
+          }
+        ]
       }
     ],
     "diagramTop": 1,
